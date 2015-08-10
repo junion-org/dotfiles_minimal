@@ -14,6 +14,7 @@ minimal dotfiles
 ```bash
 USER_NAME=`ps Tu | head -n 2 | tail -n 1 | awk '{print $1}'`
 if [ $USER_NAME = "hogeuser" ]; then
-        . dotfiles_minimal/.bash_profile
+        DOT_DIR=/path/to/dotfiles/dir
+        source $DOT_DIR/.bash_profile
 fi
 ```
