@@ -32,4 +32,4 @@ GIT_PS1_SHOWSTASHSTATE=1
 PS1="${WHITE}[${RESET}\u${RED}@${RESET}\h${WHITE}:${RESET}\W${YELLOW}\$(__git_ps1)${RESET}${WHITE}]\$${RESET} "
 
 # 読み込み完了の表示
-echo "${RED}load: $DOT_DIR/.bash_profile${RESET}"
+echo -e "\e[31mload: $DOT_DIR/.bash_profile\e[m"
