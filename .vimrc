@@ -96,13 +96,13 @@ vnoremap <Down> gj
 vnoremap <Up>   gk
 
 " C-jをエスケープの代わりに使用する
-inoremap <C-j> <esc>
-vnoremap <C-j> <esc>
+inoremap <C-j> <Esc>
+vnoremap <C-j> <Esc>
 
 " 括弧の入力を完了したら括弧内に移動する
-inoremap {} {}<LEFT>
-inoremap [] []<LEFT>
-inoremap () ()<LEFT>
-inoremap <> <><LEFT>
-inoremap "" ""<LEFT>
-inoremap '' ''<LEFT>
+inoremap {} {}<Left>
+inoremap [] []<Left>
+inoremap () ()<Left>
+inoremap <> <><Left>
+inoremap "" ""<Left>
+inoremap '' ''<Left>

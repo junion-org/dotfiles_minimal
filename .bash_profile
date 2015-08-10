@@ -2,7 +2,7 @@
 
 # エイリアス
 alias ls='ls --color=auto'
-alias vim="vim -u $DOT_DIR/.vimrc"
+alias vim="vim -N -u $DOT_DIR/.vimrc"
 
 # WPA環境変数の読み込み
 WPAENV=/usr/local/wpa/bin/wpaenv.sh
