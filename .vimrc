@@ -46,7 +46,6 @@ set smarttab
 " 自動インデント
 set autoindent
 
-
 " 新しい行を開始したときに現在の行と同じインデントにする
 set smartindent
 
