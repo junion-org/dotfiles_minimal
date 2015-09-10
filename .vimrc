@@ -85,6 +85,12 @@ set encoding=utf-8
 " エンコーディング判別順序
 set fileencodings=utf-8,cp932,euc-jp,iso-2022-jp
 
+" バックアップなし
+set nobackup
+
+" スワップなし
+set noswapfile
+
 " 表示行単位で上下移動する
 nnoremap j gj
 nnoremap k gk
